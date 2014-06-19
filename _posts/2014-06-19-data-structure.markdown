@@ -27,10 +27,4 @@ Useful informations:
 * type - video source type (e.g. tv)
 * source - video source (e.g. bbc)
 * service name - full channel name (e.g. BBC Three)
-* media - file types, codecs, etc.
-..* mp4-hi
-..* mp4-lo
-..* 3gp-hi
-..* 3gp-lo
-..* subs
-....* uri
+* media - file types, codecs, etc. The only useful information is the url of the subtitle.
