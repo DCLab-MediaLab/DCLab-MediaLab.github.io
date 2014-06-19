@@ -16,4 +16,21 @@ Useful informations:
 * uri - video url
 * canonical - canonical video url
 * depiction - preview image (the biggest)
-* depictions - preview images in other sizes
+* depictions - preview images in other sizes (640x360, 150x90, 74x42)
+* title - video title
+* description - video description
+* original_description - video description
+* subtitles - boolean
+* when - timestamp
+* id - video id
+* filename - video filename
+* type - video source type (e.g. tv)
+* source - video source (e.g. bbc)
+* service name - full channel name (e.g. BBC Three)
+* media - file types, codecs, etc.
+..* mp4-hi
+..* mp4-lo
+..* 3gp-hi
+..* 3gp-lo
+..* subs
+....* uri
