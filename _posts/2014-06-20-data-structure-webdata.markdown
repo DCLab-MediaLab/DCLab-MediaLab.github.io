@@ -15,7 +15,7 @@ There are as many lines as characters.
 In each line we can find three kinds of data that is separated by "|" character.
 
 The structure is the following: 
-	<actor's first name>|<actor's family name>|<played character>
+	actor's first name|actor's family name|played character
 
 Example: 
 	Sharon|Horgan|Donna 
