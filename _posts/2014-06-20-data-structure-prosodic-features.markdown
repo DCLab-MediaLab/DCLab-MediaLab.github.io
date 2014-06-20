@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Data structure"
+title:  "Prosodic features data structure"
 date:   2014-06-20 7:00
 categories: data structure
 ---
@@ -10,10 +10,12 @@ categories: data structure
 
 Prosodic features are features that appear when we put sounds together in connected speech.
 Acronyms:
+
 * ACF: Autocorrelation function
 * ZCR: zero-crossing rate
 
 ProsodicFeatures csv file fields:
+
 * frameTime - frame time
 * pcm_RMSenergy_sma - root-mean-square signal frame energy
 * pcm_loudness_sma - the loudness as the normalised intensity raised to a power of 0.3
