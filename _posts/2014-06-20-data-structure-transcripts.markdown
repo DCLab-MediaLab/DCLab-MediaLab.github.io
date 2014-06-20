@@ -17,12 +17,13 @@ The ctm file format is a concatenation of time mark records for each word in eac
 
 LIUM transcript csv file fields:
 
-(CTM :== FILENAME C BEGINTIME DURATION word  CONFIDENCE) where: 
+(CTM :== FILENAME + C + BEGINTIME + DURATION + WORD + CONFIDENCE) where: 
 
 * Filename - the given file's name with date & time of broadcast, bbc channel(1-4), title
 * C - Always 1 for SDR ? no significance
 * BeginTime - The begin time (seconds) of the word, measured from the start time of the file.
 * Duration - The duration (seconds) of the word.
+* Word - The exact word which was heard (and translated to text by the system)
 * Confidence - Optional confidence score. It is proposed that this score will be used in the future.
 
 Example:
