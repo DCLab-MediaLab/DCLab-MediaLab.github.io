@@ -28,6 +28,6 @@ LIUM transcript csv file fields:
 
 Example:
 
-| Filename                         | C  | Beign Time | Duration | Word | Confidence |
+| Filename                         | C  | Begin Time | Duration | Word | Confidence |
 | -------------------------------- |:--:|:----------:|:--------:|:----:|-----------:|
 | 20080402_004500_bbcone_panorama  | 1  | 0.195	     | 0.02     | the  | 0.884      |
