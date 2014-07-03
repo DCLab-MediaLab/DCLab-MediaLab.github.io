@@ -7,7 +7,7 @@ categories: data structure
 
 ##Beadando formatumok
 
-- a reszletes task leiras Ès a RunSubmission2014 alapjan
+- a reszletes task leiras √©s a RunSubmission2014 alapjan
 (Meg frissitve lesz, a training data kiadasakor. Vagy email kuldenek...)
 
 I. A futasoknal elvart fajlnev formatumok.
@@ -19,11 +19,11 @@ Az YYY helyen legyen a csapat roviditett neve.
 Az xx a feladatunkat jelenti, azaz a Search and Hyperlinking. (sh)
 Az EXT a kiterjesztes, amit szinten a task hataroz meg. (pl. .txt, .xml)
 
-A tov·bbi konvenciok, amik task specifikusak:
+A tov√°bbi konvenciok, amik task specifikusak:
 
 Jeleznunk kell, melyik sub task-ot futasa (S - Search, L -Linking)
-valamint azt, hogy mely informaciot vett¸k figyelembe a futaskor (Shot - jelenet...)
-milyen metaadatra t·maszkodott...
+valamint azt, hogy mely informaciot vett√ºk figyelembe a futaskor (Shot - jelenet...)
+milyen metaadatra t√°maszkodott...
 
 Talan a pelda jobban ertheto: me13sh_DCU_L_Sh_I_A_Lucene
 me13sh - (tavalyi) Search and Hyperlinking feladat
@@ -31,25 +31,25 @@ DCU - a csapat roviditese
 L - Linking
 Sh- jelenet informaciok alapjan
 I - LIMSI/Vocapia atiratokkal
-A tˆbbire egyertelmu utal·st nem tal·ltam, de remelhetoleg ezen roviditesekrol meg adnak ki informaciot.
-De erre kˆvetkeztetek:
-A- vizsg·lt horgonyok alapjan
+A t√∂bbire egyertelmu utal√°st nem tal√°ltam, de remelhetoleg ezen roviditesekrol meg adnak ki informaciot.
+De erre k√∂vetkeztetek:
+A- vizsg√°lt horgonyok alapjan
 Lucene - Lucene-t hasznalva
 
 1.) Search sub task
-A keresesekre eredmenyul adott szegmensek kulon sorba keruljenek Ès mindegyik tartalmazza a kovetkezo mezoket
-(ilyen sorrendben Ès whitespace-szel elvalasztva):
+A keresesekre eredmenyul adott szegmensek kulon sorba keruljenek √©s mindegyik tartalmazza a kovetkezo mezoket
+(ilyen sorrendben √©s whitespace-szel elvalasztva):
 queryId Q0 fileName startTime endTime jumpingPoint rank confidenceScore runName
 
 A mezok ertelmezese:
 queryId-a kereses azonositoja
-Q0-ez egy orokolt ·llandÛ
+Q0-ez egy orokolt √°lland√≥
 fileName- a videot azonositja, ahol a szegmens van
 startTime-a video kezdo ideje
 endTime- a video vege
 jumpingPoint-ahol a felhasznalo kezdheti nezni a szegmenst (ha ez megegyezik a startTime-mal, akkor, copy)
 rank- a video szegmens pozizioja az eredmeny listaban
-confidenceScore- lebegopontos sz·m, ami jellemzi a rendszer megbizhatosagat, hogy a talalat az egy ismert elem-e
+confidenceScore- lebegopontos sz√°m, ami jellemzi a rendszer megbizhatosagat, hogy a talalat az egy ismert elem-e
 runName-a rendszer neve, ami futattaja a keresest (pl mi alapjen dolgozik... tobb kereses eseten)
 
 2.) Linking sub task
