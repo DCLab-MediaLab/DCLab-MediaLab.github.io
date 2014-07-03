@@ -5,52 +5,52 @@ date:   2014-06-20 7:00
 categories: data structure
 ---
 
-##Beadandó formátumok
+##Beadando formatumok
 
-- a részletes task leírás és a RunSubmission2014 alapján
-(Még frissítve lesz, a training data kiadásakor. Vagy email küldenek...)
+- a reszletes task leiras és a RunSubmission2014 alapjan
+(Meg frissitve lesz, a training data kiadasakor. Vagy email kuldenek...)
 
-I. A futásoknál elvárt fájlnév formátumok.
+I. A futasoknal elvart fajlnev formatumok.
 
 me14xx_YYY_ZZZ.EXT
 
-A ZZZ helyén a futás nevét kell megadni (aminek informatívnak kell lennie, de rövidnek).
-Az YYY helyén legyen a csapat rövídített neve.
+A ZZZ helyen a futas nevet kell megadni (aminek informativnak kell lennie, de rovidnek).
+Az YYY helyen legyen a csapat roviditett neve.
 Az xx a feladatunkat jelenti, azaz a Search and Hyperlinking. (sh)
-Az EXT a kiterjesztés, amit szintén a task határoz meg. (pl. .txt, .xml)
+Az EXT a kiterjesztes, amit szinten a task hataroz meg. (pl. .txt, .xml)
 
-A további konvenciók, amik task specifikusak:
+A további konvenciok, amik task specifikusak:
 
-Jeleznünk kell, melyik sub task-ot futása (S - Search, L -Linking)
-valamint azt, hogy mely információt vettük figyelembe a futáskor (Shot - jelenet...)
+Jeleznunk kell, melyik sub task-ot futasa (S - Search, L -Linking)
+valamint azt, hogy mely informaciot vettük figyelembe a futaskor (Shot - jelenet...)
 milyen metaadatra támaszkodott...
 
-Talán a példa jobban érthetõ: me13sh_DCU_L_Sh_I_A_Lucene
+Talan a pelda jobban ertheto: me13sh_DCU_L_Sh_I_A_Lucene
 me13sh - (tavalyi) Search and Hyperlinking feladat
-DCU - a csapat rövidítése
+DCU - a csapat roviditese
 L - Linking
-Sh- jelenet információk alapján
-I - LIMSI/Vocapia átiratokkal
-A többire egyértelmû utalást nem találtam, de remélhetõleg ezen rövidítésekrõl még adnak ki információt.
+Sh- jelenet informaciok alapjan
+I - LIMSI/Vocapia atiratokkal
+A többire egyertelmu utalást nem találtam, de remelhetoleg ezen roviditesekrol meg adnak ki informaciot.
 De erre következtetek:
-A- vizsgált horgonyok alapján
-Lucene - Lucene-t használva
+A- vizsgált horgonyok alapjan
+Lucene - Lucene-t hasznalva
 
 1.) Search sub task
-A keresésekre eredményül adott szegmensek külön sorba kerüljenek és mindegyik tartalmazza a következõ mezõket
-(ilyen sorrendben és whitespace-szel elválasztva):
+A keresesekre eredmenyul adott szegmensek kulon sorba keruljenek és mindegyik tartalmazza a kovetkezo mezoket
+(ilyen sorrendben és whitespace-szel elvalasztva):
 queryId Q0 fileName startTime endTime jumpingPoint rank confidenceScore runName
 
-A mezõk értelmezése:
-queryId-a keresés azonosítója
-Q0-ez egy örökölt állandó
-fileName- a videót azonosítja, ahol a szegmens van
-startTime-a videó kezdõ ideje
-endTime- a videó vége
-jumpingPoint-ahol a felhasználó kezdheti nézni a szegmenst (ha ez megegyezik a startTime-mal, akkor, copy)
-rank- a video szegmens pozíziója az eredmény listában
-confidenceScore- lebegõpontos szám, ami jellemzi a rendszer megbízhatóságát, hogy a találat az egy ismert elem-e
-runName-a rendszer neve, ami futattaja a keresést (pl mi alapján dolgozik... több keresés esetén)
+A mezok ertelmezese:
+queryId-a kereses azonositoja
+Q0-ez egy orokolt állandó
+fileName- a videot azonositja, ahol a szegmens van
+startTime-a video kezdo ideje
+endTime- a video vege
+jumpingPoint-ahol a felhasznalo kezdheti nezni a szegmenst (ha ez megegyezik a startTime-mal, akkor, copy)
+rank- a video szegmens pozizioja az eredmeny listaban
+confidenceScore- lebegopontos szám, ami jellemzi a rendszer megbizhatosagat, hogy a talalat az egy ismert elem-e
+runName-a rendszer neve, ami futattaja a keresest (pl mi alapjen dolgozik... tobb kereses eseten)
 
 2.) Linking sub task
 
@@ -58,4 +58,4 @@ anchorId Q0 fileName startTime endTime rank confidenceScore runName
 
 3.) Anchor detection
 
-Még nem találtam pontos információt.
+Meg nem talaltam pontos informaciot.
